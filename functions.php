@@ -2,6 +2,9 @@
 
 declare(strict_types=1);
 
+use App\Student;
+use App\Group;
+
 function printStudentInfo(Student $student): void
 {
     $fivePointGrade = $student->getAverage();

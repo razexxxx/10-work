@@ -2,10 +2,11 @@
 
 declare(strict_types=1);
 
+require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/functions.php';
 
-require_once 'Student.php';
-require_once 'Group.php';
-require_once 'functions.php';
+use App\Student;
+use App\Group;
 
 $student1 = new Student("Никита", "Реутов");
 $student2 = new Student("Мария", "Перьмякова");
